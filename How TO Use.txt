@@ -1,5 +1,8 @@
 Description:
+
 Flask Alcatraz eliminates the hassle of repetitive setup tasks when starting a Flask project, allowing you to kickstart your development process by 10% faster.
+
+
 
 Features:
 
@@ -10,19 +13,34 @@ Activated Admin Panel
 Pre-configured Login and Registration Templates
 Say goodbye to manual configuration and dive straight into developing your Flask application with Flask Alcatraz!
 
+
 Getting Started:
 
+
+
 Create a Virtual Environment:
+
 python -m venv venv
 
+
+
 Install Dependencies:
-pip install -r requirements.txt
+
+pip install -r requirement.txt
+
+
 
 Database Migration:
+
 flask db init
+
 flask db migrate -m "Your migration message"
+
 flask db upgrade
 
+
+
 Launch Flask:
-flask app.py
+
+python app.py
 
